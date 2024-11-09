@@ -2,7 +2,7 @@ from flask import Flask, redirect,render_template, request, session, url_for
 import datetime
 
 app=Flask(__name__)
-app.secret_key = 'b18bc9e558b4072ee859a89706ba33534e070b1cc1cf91cd6188c60e9c984419'
+app.secret_key = ''
 
 
 @app.route("/")
